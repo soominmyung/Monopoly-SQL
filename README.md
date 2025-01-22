@@ -28,7 +28,13 @@ This project models a Monopoly game using SQL, providing a complete relational d
 ### Entity-Relationship Diagram
 The ER diagram defines the relationships among key entities like `Player`, `Property`, `Location`, `Bonus`, and `Turns`.
 
+![image](https://github.com/user-attachments/assets/14f3cf8a-937b-4d48-b00f-f601d5b84aa2)
+
+
 ### Relational Schema
+
+![image](https://github.com/user-attachments/assets/9049bd9a-bcb3-403a-80d4-e896364a6b35)
+
 1. **Location Table**
    - Tracks all game tiles (bonus or property).
    - `type` column distinguishes tile type (0 for bonus, 1 for property).
