@@ -30,6 +30,7 @@ The ER diagram defines the relationships among key entities like `Player`, `Prop
 
 ![image](https://github.com/user-attachments/assets/14f3cf8a-937b-4d48-b00f-f601d5b84aa2)
 
+---
 
 ### Relational Schema
 
