@@ -4,6 +4,8 @@
 
 This project models a Monopoly game using SQL, providing a complete relational database schema and gameplay logic. The database ensures game integrity with constraints, triggers, and stored procedures while allowing dynamic gameplay through player actions, property management, and game status tracking.
 
+![flow_chart_monopolee](https://github.com/user-attachments/assets/6259bb2d-e0fc-4362-aa18-719eda0901d7)
+
 ### Key Features:
 - Comprehensive Entity-Relationship (ER) and relational schema design.
 - Trigger-based enforcement of game rules.
