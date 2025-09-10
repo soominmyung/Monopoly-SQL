@@ -133,19 +133,15 @@ The ER diagram defines the relationships among key entities like `Player`, `Prop
 2. Query `gameView` to monitor game progress.
 
 ### Example Queries
-1. **Player Movement**:
-   ```sql
-   CALL move_player(player_ID, dice);
-   ```
 
+1. **Trigger Dice Roll**:
+   ```sql
+   INSERT INTO Gamemanager (dice) VALUES (6);
+   ```
+   
 2. **View Game Status**:
    ```sql
    SELECT * FROM gameView;
-   ```
-
-3. **Trigger Dice Roll**:
-   ```sql
-   INSERT INTO Gamemanager (dice) VALUES (6);
    ```
 
 ---
