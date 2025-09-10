@@ -144,6 +144,8 @@ The ER diagram defines the relationships among key entities like `Player`, `Prop
    SELECT * FROM gameView;
    ```
 
+<img width="1421" height="1068" alt="image" src="https://github.com/user-attachments/assets/909a8a6c-6892-40c3-a70f-a3466567b0cb" />
+
 ---
 
 For full gameplay details, refer to the codebase and schema documentation.
