@@ -151,9 +151,4 @@ The ER diagram defines the relationships among key entities like `Player`, `Prop
 
 ---
 
-## References
-- MySQL Documentation
-- GeeksforGeeks: MySQL Functions and Triggers
-- W3Resource: MySQL Advanced Topics
-
 For full gameplay details, refer to the codebase and schema documentation.
