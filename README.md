@@ -146,6 +146,8 @@ The ER diagram defines the relationships among key entities like `Player`, `Prop
 
 <img width="1421" height="1068" alt="image" src="https://github.com/user-attachments/assets/909a8a6c-6892-40c3-a70f-a3466567b0cb" />
 
+<img width="1434" height="1225" alt="image" src="https://github.com/user-attachments/assets/721010c0-11ec-4568-9b3e-8a64dca6caf1" />
+
 ---
 
 For full gameplay details, refer to the codebase and schema documentation.
