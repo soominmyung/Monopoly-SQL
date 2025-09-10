@@ -21,7 +21,6 @@ This project models a Monopoly game using SQL, providing a complete relational d
 3. [Database Integrity](#database-integrity)
 4. [Game Rules Implementation](#game-rules-implementation)
 5. [How to Use](#how-to-use)
-6. [References](#references)
 
 ---
 
