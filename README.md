@@ -1,5 +1,5 @@
-# Monopoly-SQL: A Relational Database Implementation for Monopoly Game
-
+# Monopoly-SQL: Relational Database Game Simulation
+(Monopolee - DATA70141 Coursework (University of Manchester)
 ## Project Overview
 
 This project models a Monopoly game using SQL, providing a complete relational database schema and gameplay logic. The database ensures game integrity with constraints, triggers, and stored procedures while allowing dynamic gameplay through player actions, property management, and game status tracking.
