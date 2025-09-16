@@ -1,10 +1,46 @@
 # Monopoly-SQL: Relational Database Game Simulation
-(Monopolee - DATA70141 Coursework (University of Manchester)
+🎲 This project re-creates the Monopoly game purely in SQL — **all you need is to `INSERT` a dice number**, and the players move, pay, and earn automatically.  
+You can even use `RANDINT(1,6)` instead of a fixed number to let the dice roll itself! 🚀
+
+<br>
+
+## Example Queries
+
+1. **Trigger Dice Roll**:
+   ```sql
+   INSERT INTO Gamemanager (dice) VALUES (6);
+   ```
+   
+2. **View Game Status**:
+   ```sql
+   SELECT * FROM gameView;
+   ```
+
+
+<br>
+
+## Examples of gameplay
+
+<img width="947" height="712" alt="image" src="https://github.com/user-attachments/assets/909a8a6c-6892-40c3-a70f-a3466567b0cb" />
+
+<img width="956" height="817" alt="image" src="https://github.com/user-attachments/assets/721010c0-11ec-4568-9b3e-8a64dca6caf1" />
+
+##
+
+For full gameplay details, refer to the codebase and schema documentation.
+
+_(Monopolee - DATA70141 Coursework (University of Manchester)_
+
+<br>
+
 ## Project Overview
 
 This project models a Monopoly game using SQL, providing a complete relational database schema and gameplay logic. The database ensures game integrity with constraints, triggers, and stored procedures while allowing dynamic gameplay through player actions, property management, and game status tracking.
 
 ![flow_chart_monopolee](https://github.com/user-attachments/assets/6259bb2d-e0fc-4362-aa18-719eda0901d7)
+
+
+<br>
 
 ### Key Features:
 - Comprehensive Entity-Relationship (ER) and relational schema design.
@@ -13,7 +49,7 @@ This project models a Monopoly game using SQL, providing a complete relational d
 - Audit trail of game actions through the `Gamemanager` table.
 - Custom view (`gameView`) to track and visualize game status.
 
----
+<br>
 
 ## Table of Contents
 1. [Schema Design](#schema-design)
@@ -22,7 +58,7 @@ This project models a Monopoly game using SQL, providing a complete relational d
 4. [Game Rules Implementation](#game-rules-implementation)
 5. [How to Use](#how-to-use)
 
----
+<br>
 
 ## Schema Design
 
@@ -31,7 +67,8 @@ The ER diagram defines the relationships among key entities like `Player`, `Prop
 
 ![image](https://github.com/user-attachments/assets/14f3cf8a-937b-4d48-b00f-f601d5b84aa2)
 
----
+
+<br>
 
 ### Relational Schema
 
@@ -57,7 +94,9 @@ The ER diagram defines the relationships among key entities like `Player`, `Prop
 6. **gameView**
    - A dynamic view that shows game status, including player properties, locations, and bank balances.
 
----
+
+
+<br>
 
 ## Gameplay Mechanics
 
@@ -82,7 +121,9 @@ The ER diagram defines the relationships among key entities like `Player`, `Prop
 6. **Monopoly Check (`monopoly_checker`)**
    - Doubles property rent if a player monopolizes a color.
 
----
+
+
+<br>
 
 ## Database Integrity
 
@@ -99,7 +140,8 @@ The ER diagram defines the relationships among key entities like `Player`, `Prop
 ### Stored Procedures
 - Manage player actions, enforce game rules, and handle exceptions (e.g., bankruptcy).
 
----
+
+<br>
 
 ## Game Rules Implementation
 
@@ -120,7 +162,8 @@ The ER diagram defines the relationships among key entities like `Player`, `Prop
 - Dice rolls (`dice_trigger`) control player actions.
 - Session variables track game state (`@turn`, `@round`, etc.).
 
----
+
+<br>
 
 ## How to Use
 
@@ -132,22 +175,4 @@ The ER diagram defines the relationships among key entities like `Player`, `Prop
 1. Use `INSERT INTO Gamemanager (dice)` to simulate dice rolls.
 2. Query `gameView` to monitor game progress.
 
-### Example Queries
 
-1. **Trigger Dice Roll**:
-   ```sql
-   INSERT INTO Gamemanager (dice) VALUES (6);
-   ```
-   
-2. **View Game Status**:
-   ```sql
-   SELECT * FROM gameView;
-   ```
-
-<img width="1421" height="1068" alt="image" src="https://github.com/user-attachments/assets/909a8a6c-6892-40c3-a70f-a3466567b0cb" />
-
-<img width="1434" height="1225" alt="image" src="https://github.com/user-attachments/assets/721010c0-11ec-4568-9b3e-8a64dca6caf1" />
-
----
-
-For full gameplay details, refer to the codebase and schema documentation.
