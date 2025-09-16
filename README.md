@@ -19,8 +19,8 @@ You can even use `RANDINT(1,6)` instead of a fixed number to let the dice roll i
 
 <br>
 
-## Examples of gameplay
-
+## Examples of gameplay 
+### Fixed dice rolls for the example — try RANDINT(1,6) for real gameplay 🎲
 <img width="947" height="712" alt="image" src="https://github.com/user-attachments/assets/909a8a6c-6892-40c3-a70f-a3466567b0cb" />
 
 <img width="956" height="817" alt="image" src="https://github.com/user-attachments/assets/721010c0-11ec-4568-9b3e-8a64dca6caf1" />
