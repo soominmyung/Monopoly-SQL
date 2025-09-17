@@ -1,7 +1,7 @@
 # Monopoly-SQL: Relational Database Game Simulation
-🎲 This project re-creates the Monopoly game purely in SQL — **all you need is to `INSERT` a dice number**, and the players move, pay, and earn automatically.  
-You can even use `RANDINT(1,6)` instead of a fixed number to let the dice roll itself! 🚀
-
+### 🎲 This project re-creates the Monopoly game purely in SQL — **all you need is to `INSERT` a dice number**, and the players move, pay, and earn automatically.  
+### You can even use `RANDINT(1,6)` instead of a fixed number to let the dice roll itself! 🚀
+### _Key Stacks: SQL, Database Design_
 <br>
 
 ## Example Queries
