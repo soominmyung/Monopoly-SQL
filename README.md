@@ -37,7 +37,9 @@ _(Monopolee - DATA70141 Coursework (University of Manchester)_
 
 This project models a Monopoly game using SQL, providing a complete relational database schema and gameplay logic. The database ensures game integrity with constraints, triggers, and stored procedures while allowing dynamic gameplay through player actions, property management, and game status tracking.
 
-![flow_chart_monopolee](https://github.com/user-attachments/assets/6259bb2d-e0fc-4362-aa18-719eda0901d7)
+<br>
+
+<img width="1335" height="1837" alt="Flow chart ver 2" src="https://github.com/user-attachments/assets/75534665-c976-4d28-aa89-b6a0b74065e2" />
 
 
 <br>
@@ -62,17 +64,15 @@ This project models a Monopoly game using SQL, providing a complete relational d
 
 ## Schema Design
 
-### Entity-Relationship Diagram
+### A. Entity-Relationship Diagram
 The ER diagram defines the relationships among key entities like `Player`, `Property`, `Location`, `Bonus`, and `Turns`.
 
-![image](https://github.com/user-attachments/assets/14f3cf8a-937b-4d48-b00f-f601d5b84aa2)
+<img width="1402" height="1202" alt="Monopolee (1)" src="https://github.com/user-attachments/assets/49e5eaf9-ecc7-4307-b78b-86784e9c4f11" />
 
+### B. Relational Schema
 
-<br>
+<img width="1440" height="1668" alt="Monopolee_schema" src="https://github.com/user-attachments/assets/6b56a1e5-04a6-42ac-9e99-5e931b037dac" />
 
-### Relational Schema
-
-![image](https://github.com/user-attachments/assets/9049bd9a-bcb3-403a-80d4-e896364a6b35)
 
 1. **Location Table**
    - Tracks all game tiles (bonus or property).
